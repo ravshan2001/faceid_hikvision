@@ -1,0 +1,55 @@
+@layer components {
+  /* Table */
+  .th-first {
+    @apply pl-4 pr-3 py-3.5 text-sm text-left font-medium text-mainText w-14 rounded-tl-md;
+  }
+  .th {
+    @apply whitespace-nowrap pl-3 pr-3 px-3 py-3.5 text-left text-sm font-medium text-mainText rounded-bl-md;
+  }
+  .th-last {
+    @apply py-3.5 pl-3 pr-4 text-mainText rounded-tr-md;
+  }
+
+  .td-first {
+    @apply whitespace-nowrap py-2 pl-4 pr-3 text-sm font-medium text-mainText w-14 rounded-bl-md rounded-tl-md;
+  }
+  .td-img {
+    @apply whitespace-nowrap w-32 px-3 py-2 xl:p-2;
+  }
+  .td-second {
+    @apply w-[40%] 2xl:w-fit whitespace-nowrap px-3 py-2 text-base text-mainText font-semibold;
+  }
+  .td {
+    @apply whitespace-nowrap px-3 py-2 text-base text-mainText font-semibold;
+  }
+  .td-last {
+    @apply p-2 text-base text-mainText rounded-br-md rounded-tr-md;
+  }
+
+  .searchInput {
+    @apply w-full px-2 py-1.5 pr-12 rounded-md bg-transparent outline-none text-mainText text-base font-medium ring-1 focus:ring-offset-[1.5px] placeholder:text-placeholder ring-border focus:ring-offset-hoverAside;
+  }
+
+  .parent {
+    @apply overflow-hidden flex-1 flex flex-col -mr-5 pr-4;
+  }
+  .child {
+    @apply overflow-y-auto -mr-3 pr-2 mainScroll sm:mr-0 sm:pr-1 flex-1;
+  }
+  .tableDiv {
+    @apply border border-border rounded-md sm:overflow-x-auto;
+  }
+  .table {
+    @apply min-w-full divide-y divide-border;
+  }
+  .thead {
+    @apply sticky top-0 bg-main z-20 shadow-sm;
+  }
+
+  .cancelBtn {
+    @apply px-3 py-1.5 hover:bg-hover bg-cancelBtn ring-1 ring-inset ring-border rounded-md text-mainText;
+  }
+  .btn {
+    @apply px-3 py-1.5 bg-hover rounded-md text-mainText;
+  }
+}

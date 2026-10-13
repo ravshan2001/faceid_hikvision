@@ -1,0 +1,71 @@
+.flatpickr-wrapper {
+  @apply !w-full after:!hidden;
+}
+
+.flatpickr-calendar.arrowTop:after,
+.flatpickr-calendar.arrowTop:before {
+  @apply hidden;
+}
+
+.flatpickr-weekday,
+.flatpickr-monthDropdown-month,
+.flatpickr-monthDropdown-months,
+.flatpickr-month,
+.flatpickr-calendar {
+  @apply !bg-main -m-[1.5px] rounded-md !text-changeText;
+}
+
+.flatpickr-innerContainer {
+  @apply !bg-main -m-[1.5px] rounded-md !text-changeText;
+}
+
+.flatpickr-prev-month svg {
+  @apply !fill-changeText;
+}
+
+.flatpickr-next-month svg {
+  @apply !fill-changeText;
+}
+
+.flatpickr-day,
+.flatpickr-day.prevMonthDay {
+  @apply hover:!bg-hoverAside hover:!border-border !text-changeText hover:!text-whiteText;
+}
+
+.flatpickr-day.selected {
+  @apply !bg-border !border-border !text-whiteText;
+}
+
+.flatpickr-calendar.hasTime .flatpickr-time {
+  @apply !border-none overflow-hidden !outline-none !bg-main !rounded-lg -m-[2px] hover:!bg-aside;
+}
+
+.numInputWrapper {
+  @apply !bg-main !rounded-lg !outline-none;
+}
+
+.flatpickr-calendar {
+  @apply !border-none !outline-none !shadow-2xl mt-1;
+}
+
+.numInput.flatpickr-minute,
+.numInput.flatpickr-hour {
+  @apply hover:!bg-aside hover:!text-whiteText !text-changeText focus:!bg-main hover:focus:!bg-aside;
+}
+
+
+.success-tag {
+  @apply inline-flex items-center rounded-md bg-green-50  px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20;
+}
+.warning-tag {
+  @apply inline-flex items-center rounded-md bg-amber-50  px-2 py-1 text-xs font-medium text-amber-700 ring-1 ring-inset ring-amber-600/20;
+}
+.danger-tag {
+  @apply inline-flex items-center rounded-md bg-red-50  px-2 py-1 text-xs font-medium text-red-700 ring-1 ring-inset ring-red-600/20;
+}
+.primary-tag {
+  @apply inline-flex items-center rounded-md bg-blue-50 dark:bg-blue-600 dark:text-white px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-inset ring-blue-600/20;
+}
+.default-tag {
+  @apply inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-700 ring-1 ring-inset ring-gray-600/20;
+}

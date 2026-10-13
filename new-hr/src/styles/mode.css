@@ -1,0 +1,208 @@
+.light {
+  --main: 255, 255, 255;
+  /* --aside: 2, 39, 38; */
+  --aside: 14, 9, 41;
+  --border: 210, 219, 219;
+  /* TEXT */
+  --mainText: 40, 40, 40;
+  --changeText: 2, 39, 38;
+  --placeholder: 180, 180, 180;
+  --whiteText: 255, 255, 255;
+  --blueText: 14, 9, 41;
+  /* TEXT */
+  /* SEARCH */
+  --searchBg: 255, 255, 255;
+  --searchBgNotFound: 33, 80, 80;
+  /* SEARCH */
+  /* TABLE */
+  --index2: 249, 250, 251;
+  /* TABLE */
+  /* OVERLAY */
+  --overlayBg: 240, 240, 240;
+  --linkbg: 255, 255, 255;
+  --linkHover: 253, 175, 10;
+  /* OVERLAY */
+  --modal: 255, 255, 255;
+  --blur: 179, 182, 192, 0.8;
+
+  --editBtn: 234, 179, 8;
+  --editBtnHover: 250, 204, 21;
+  --cancelBtn: 255, 255, 255;
+  --hover: 245, 245, 245;
+
+  /* LOGIN BG */
+  --loginbg: 249, 250, 251;
+  --formbg: 255, 255, 255;
+  /* LOGIN BG */
+
+  /* orqa fon aside rangi bolganida */
+  --hoverAside: 246, 245, 250;
+  --btn: 14, 9, 41;
+  --btnHover: 11,6, 12;
+  /* orqa fon aside rangi bolganida */
+
+  /* SROLLS */
+  --mainScrollTrack: 240, 240, 240;
+  --mainScrollThumb: 180, 180, 180;
+  --mainScrollHover: 140, 140, 140;
+
+  --scrollTrack: 10, 60, 58;
+  --scrollBar: 20, 80, 78;
+  --scrollThumb: 100, 160, 150;
+  --scrollHover: 150, 200, 190;
+  /* SROLLS */
+
+
+  /* COLOR */
+  --greenColor: 34, 197, 94;    /*#22c55e*/
+  --lightGreen: 203, 242, 213;   /*#cbf2d5*/
+  --hoverGreen: 8, 187, 74;      /*#08bb4a*/
+  --redColor: 239, 68, 68;        /*#ef4444*/
+  --lightRed: 248, 216, 216;      /*#f8d8d8*/
+  --hoverRed: 241, 40, 40;         /*#f12828*/
+  --blueColor: 96, 165, 250;       /*#60a5fa*/
+  --lightBlue: 191, 219, 254;      /*#bfdbfe*/
+  --hoverBlue: 59, 130, 246;        /*#3b82f6*/
+  --yellowColor: 253, 224, 71;      /*#fde047*/
+  --lightYellow: 255, 247, 188;      /*#fff7bc*/
+  --hoverYellow: 245, 158, 11;       /*#f59e0b*/
+  --defaultColor: 14, 9, 41;         /*#0e0929*/
+  /* COLOR */
+
+  background: rgba(var(--main));
+}
+
+.dark {
+  --main: 3, 7, 18;
+  --aside: 15, 20, 30;
+  --border: 29, 32, 42;
+  /* TEXT */
+  --mainText: 220, 220, 220;
+  --changeText: 238, 238, 238;
+  --placeholder: 144, 153, 167;
+  --whiteText: 255, 255, 255;
+  --blueText: 255, 255, 255;
+  /* TEXT */
+
+  /* SEARCH */
+  --searchBg: 30, 41, 57;
+  --searchBgNotFound: 30, 41, 57;
+  /* SEARCH */
+
+  /* TABLE */
+  --index2: 15, 20, 30, 0.2;
+  /* TABLE */
+
+  /* OVERLAY */
+  --overlayBg: 2, 12, 23;
+  --linkbg: 15, 20, 30;
+  --linkHover: 253, 175, 10;
+  /* OVERLAY */
+  --modal: 30, 41, 57;
+  --blur: 14, 20, 36, 0.8;
+
+  --editBtn: 234, 179, 8;
+  --editBtnHover: 250, 204, 21;
+  --cancelBtn: 65, 65, 65;
+  --hover: 26, 31, 41;
+
+  /* LOGIN BG */
+  --loginbg: 3, 7, 18;
+  --formbg: 15, 20, 30;
+  /* LOGIN BG */
+
+  /* orqa fon aside rangi bolganida */
+  --hoverAside: 26, 31, 41;
+  --btn: 14, 165, 233;
+  --btnHover: 3, 105, 161;
+  /* orqa fon aside rangi bolganida */
+
+  /* SCROLL */
+  --mainScrollTrack: 45, 45, 45;
+  --mainScrollThumb: 100, 100, 100;
+  --mainScrollHover: 150, 150, 150;
+
+  --scrollTrack: 50, 50, 50;
+  --scrollBar: 70, 70, 70;
+  --scrollThumb: 100, 100, 100;
+  --scrollHover: 120, 120, 120;
+  /* SCROLL */
+
+  /* COLOR */
+  --greenColor: 22, 101, 52;      /* #166534 */
+  --lightGreen: 30, 64, 45;       /* #1e402d */
+  --hoverGreen: 16, 185, 129;     /* #10b981 */
+  --redColor: 153, 27, 27;        /* #991b1b */
+  --lightRed: 69, 10, 10;         /* #450a0a */
+  --hoverRed: 220, 38, 38;        /* #dc2626 */
+  --blueColor: 30, 64, 175;       /* #1e40af */
+  --lightBlue: 30, 41, 59;        /* #1e293b */
+  --hoverBlue: 37, 99, 235;       /* #2563eb */
+  --yellowColor: 202, 138, 4;     /* #ca8a04 */
+  --lightYellow: 113, 63, 18;     /* #713f12 */
+  --hoverYellow: 202, 138, 4;     /* #ca8a04 */
+  --defaultColor: 220, 220, 220;
+/* COLOR */
+
+
+  background: rgba(var(--main));
+}
+
+.blue {
+  --main: 255, 255, 255;
+  --aside: 66, 101, 207;
+  --border: 210, 219, 219;
+  /* TEXT */
+  --mainText: 40, 40, 40;
+  --changeText: 12, 19, 79;
+  --placeholder: 180, 180, 180;
+  --whiteText: 255, 255, 255;
+  /* TEXT */
+  /* SEARCH */
+  --searchBg: 255, 255, 255;
+  --searchBgNotFound: 54, 116, 181;
+  /* SEARCH */
+  /* TABLE */
+  --index2: 249, 250, 251;
+  /* TABLE */
+  /* OVERLAY */
+  --overlayBg: 240, 240, 240;
+  --linkbg: 255, 255, 255;
+  --linkHover: 253, 175, 10;
+  /* OVERLAY */
+  --modal: 255, 255, 255;
+  --blur: 179, 182, 192, 0.8;
+
+  --editBtn: 234, 179, 8;
+  --editBtnHover: 250, 204, 21;
+  --cancelBtn: 255, 255, 255;
+  --hover: 240, 240, 240;
+
+  /* LOGIN BG */
+  /* --loginbg: 66, 101, 207; */
+  --loginbg: 249, 250, 251;
+  --formbg: 255, 255, 255;
+  /* LOGIN BG */
+
+  /* orqa fon aside rangi bolganida */
+  --hoverAside: 115, 141, 226;
+  --btn: 102, 135, 225;
+  --btnHover: 132, 165, 235;
+  /* orqa fon aside rangi bolganida */
+
+  /* SCROLL */
+  --mainScrollTrack: 210, 213, 230;
+  --mainScrollThumb: 150, 155, 180;
+  --mainScrollHover: 120, 125, 160;
+
+  --scrollTrack: 120, 150, 230;
+  --scrollBar: 160, 180, 240;
+  --scrollThumb: 40, 80, 180;
+  --scrollHover: 30, 60, 150;
+  /* SCROLL */
+
+
+
+
+  background: rgba(var(--main));
+}

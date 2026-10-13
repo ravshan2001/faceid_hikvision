@@ -1,0 +1,1 @@
+import{_ as s}from"./defaultMain-3S3GiVWE.js";import{b as e,m as a,u as o,e as r,o as u,w as i,a as n}from"./index-Bzqs5tSG.js";import"./headerShow-B95BRKw7.js";const d={__name:"userStatistic",setup(l){const{locale:_}=e();return a(),o(),(c,t)=>(u(),r(s,null,{default:i(()=>t[0]||(t[0]=[n("div",null," UserStatistika ",-1)])),_:1}))}};export{d as default};

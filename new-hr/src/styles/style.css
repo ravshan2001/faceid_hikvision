@@ -1,0 +1,103 @@
+/* KALENDAR */
+/* Light theme styles */
+.dp-light .dp__calendar {
+  background-color: white;
+  color: black;
+}
+
+/* Dark theme styles */
+.dp-dark .dp__calendar {
+  background-color: #1f2937; /* dark gray */
+  color: white;
+}
+/* Dark theme styles */
+.dp-dark .dp__instance_calendar {
+  background-color: #1f2937; /* dark gray */
+  color: white;
+}
+.dp-dark .dp__instance_calendar .dp__calendar_header {
+  background-color: #1f2937; /* dark gray */
+  color: white;
+}
+.dp-dark .dp__month_year_wrap button {
+  color: white;
+}
+.dp-dark .dp__month_year_wrap button:hover {
+  color: #1f2937;
+}
+
+.dp-dark .dp__cell_inner {
+  background-color: #374151; /* even darker for hover/cell */
+}
+
+
+
+
+/* THEMA PICKER */
+.theme-label {
+  width: 40px;
+  height: 20px;
+  position: relative;
+  display: block;
+  background: #f5f5f5;
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.1),
+              inset 0px -5px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.theme-label::after {
+  content: "";
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: linear-gradient(180deg, #ffcc89, #dca24b);
+  border-radius: 50%;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.theme-label svg {
+  position: absolute;
+  width: 10px;
+  top: 7px;
+  z-index: 100;
+  transition: 0.3s;
+}
+.theme-label svg.sun {
+  left: 6px;
+  top: 2px;
+  fill: #fff;
+}
+.theme-label svg.moon {
+  left: 26px;
+  top: 2px;
+  fill: #7e7e7e;
+}
+
+input:checked + .theme-label {
+  background: #242424;
+}
+input:checked + .theme-label::after {
+  left: 37px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg, #777, #3a3a3a);
+}
+input:checked + .theme-label .sun {
+  fill: #7e7e7e;
+}
+input:checked + .theme-label .moon {
+  fill: #fff;
+}
+/* .background {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+} */
+input:checked + .theme-label + .background {
+  background: #242424;
+}

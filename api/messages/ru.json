@@ -1,0 +1,300 @@
+{
+  "userNotFound": "Пользователь не найден!",
+  "tokenNotFound": "Токен не найден!",
+  "idNotFound": "ID не найден!",
+  "departmentNotFound": "Отдел не найден!",
+  "fileNotFound": "Отсутствует файл!",
+  "fileNotImage": "Файл не является изображением!",
+  "LIMIT_FILE_SIZE": "Размер файла не должен превышать 200 kb!",
+  "invalidFileType": "Неверный тип файла!",
+  "workerHistoryNotFound": "История сотрудника не найден!",
+  "titleNotFound": "Значение title не передан!",
+  "doorNotFound": "Дверь не найдена!",
+  "branchNotFound": "Филиал не найден!",
+  "holidayNotFound": "Праздник не найден!",
+  "reasonNotFound": "Причина не найдена!",
+  "absenceNotFound": "Отсутствие не найдено!",
+  "userSyncedDoorNotFound": "Синхронизированная дверь пользователя не найдена!",
+
+  "tokenInvalid": "Токен недействителен!",
+  "tokenExpired": "Срок жизни токена истек!",
+  "authError": "Ошибка аутентификации!",
+  "accessDenied": "Доступ запрещен!",
+  "youDontHaveAccess": "У вас недостаточно прав для данного действия!",
+
+  "incorectPassword": "Неверный пароль!",
+  "profileInactive": "Ваш профиль был деактивирован!",
+  "invalidId": "Не валидный ID!",
+  "userRequired": "Пользователь обязателен для указания!",
+
+  "deleted": "Удалено!",
+  "serverError": "Ошибка сервера!",
+
+
+
+  "_idCustom": "Неверный формат идентификатора.",
+  "_idBase": "Идентификатор должен быть строкой.",
+  "_idRequired": "Идентификатор обязателен для заполнения.",
+
+  "statusBase": "Статус должен быть строкой.",
+  "statusOnly": "Статус может быть только 'active', 'inactive' или 'deleted'.",
+
+  "titleBase": "Поле 'title' должно быть строкой.",
+  "titleEmpty": "Поле 'title' не может быть пустым.",
+  "titleMin": "Поле 'title' должно содержать минимум 2 символа.",
+  "titleMax": "Поле 'title' не должно превышать 150 символов.",
+  "titleRequired": "Поле 'title' обязательно для заполнения.",
+
+  "phoneEmpty": "Поле 'Телефон' не может быть пустым",
+  "phonePattern": "Номер телефона должен соответствовать формату 998 (XX) XXX-XX-XX.",
+  "phoneRequired": "Поле 'Телефон' обязательно для заполнения",
+
+  "passwordEmpty": "Поле password не может быть пустым.",
+  "passwordMin": "Пароль должен содержать минимум 5 символов.",
+  "passwordMax": "Пароль не должен превышать 50 символов.",
+  "passwordRequired": "Поле password обязательно для заполнения.",
+
+  "limitBase": "Поле 'limit' должен быть числом.",
+  "limitOnly": "Поле 'limit' может быть только 0, 1, 30, 50, 100.",
+
+  "pageBase": "Поле 'page' должен быть числом.",
+  "pageinteger": "Значение 'page' должно быть целым числом.",
+  "pagePositive": "Значение 'page' должно быть положительным числом.",
+
+
+  "departmentNameBase": "Название должно быть строкой.",
+  "departmentNameEmpty": "Название не может быть пустым.",
+  "departmentNameMin": "Название должно содержать минимум 3 символа.",
+  "departmentNameMax": "Название не должно превышать 150 символов.",
+  "departmentNameRequired": "Название обязательно для заполнения.",
+
+  "departmentTypeBase": "Тип должен быть числом.",
+  "departmentTypeOnly": "Тип может быть только 1 (Department) или 2 (Group).",
+  "departmentTypeRequired": "Тип обязательно для заполнения.",
+
+  "departmentWorkTimeBase": "Рабочее время должно быть массивом.",
+
+  "departmentWorkTimeDayBase": "День должен быть числом.",
+  "departmentWorkTimeDayInteger": "День должен быть целым числом.",
+  "departmentWorkTimeDayMin": "День не может быть меньше 0 (воскресенье).",
+  "departmentWorkTimeDayMax": "День не может быть больше 6 (суббота).",
+  "departmentWorkTimeDayRequired": "День недели обязателен.",
+
+  "departmentWorkTimeStartTimeBase": "Время начала должно быть датой.",
+  "departmentWorkTimeStartTimeRequired": "Время начала обязательно.",
+
+  "departmentWorkTimeEndTimeBase": "Время окончания должно быть датой.",
+  "departmentWorkTimeEndTimeGreater": "Время окончания должно быть позже времени начала.",
+  "departmentWorkTimeEndTimeRequired": "Время окончания обязательно.",
+
+  "departmentParentCustom": "Неверный формат родительского отдела.",
+  "departmentParentBase": "Родительский отдел должен быть строкой.",
+
+  "departmentChiefCustom": "Неверный формат идентификатора руководителя.",
+  "departmentChiefBase": "Руководитель должен быть строкой.",
+
+
+  "branchDescriptionBase": "Поле 'description' должно быть строкой.",
+  "branchDescriptionEmpty": "Поле 'description' не может быть пустым.",
+  "branchDescriptionRequired": "Поле 'description' обязательно для заполнения.",
+
+  "branchLocationAddressRequired": "Поле 'address' обязательно для заполнения.",
+  "branchLocationAddressBase": "Поле 'address' должно быть строкой.",
+  "branchLocationAddressEmpty": "Поле 'address' не может быть пустым.",
+
+  "branchLocationCoordinatesRequired": "Поле 'coordinates' обязательно для заполнения.",
+  "branchLocationCoordinatesBase": "Поле 'coordinates' должно быть строкой.",
+  "branchLocationCoordinatesLength": "Поле 'coordinates' должно содержать 2 числа, разделенных запятой.",
+
+
+  "userPresenceBase": "Поле 'presence' должно быть одним из значений: came, not came.",
+
+  "userIdCustom": "Неверный формат идентификатора пользователя.",
+  "userIdBase": "Пользователь должен быть строкой.",
+  "userIdArrayBase": "Пользователь должен быть массивом.",
+  "userIdArrayIncludes": "Пользователь должен содержать только строки.",
+
+  "userFullNameBase": "Поле 'fullName' не может быть пустым",
+  "userFullNameMin": "Поле 'fullName' должно содержать минимум 3 символа.",
+  "userFullNameMax": "Поле 'fullName' не должно превышать 100 символов.",
+  "userFullNameRequired": "Поле 'fullName' обязательно для заполнения",
+
+  "userRoleOnly": "Поле 'role' должно быть одним из: boss, chief, worker, security, guest",
+  "userRoleRequired": "Поле 'role' обязательно для заполнения",
+
+  "userFaceUrlBase": "Ссылка на фото должен быть строкой.",
+  "userFaceUrlRequired": "Ссылка на фото обязательна для заполнения.",
+
+  "userGenderBase": "Поле 'gender' должно быть одним из значений: male, female, custom.",
+  "userGenderRequired": "Поле 'gender' обязательно для заполнения.",
+
+  "userBirthDateBase": "Поле 'birthDay' должно быть датой.",
+  "userBirthDayLess": "Дата рождения должна быть меньше текущей даты.",
+  "userBirthDateRequired": "Поле 'birthDay' обязательно для заполнения.",
+
+  "userAddressBase": "Поле 'address' должно быть строкой.",
+  "userAddressRequired": "Поле 'address' обязательно для заполнения.",
+  "userAddressMax": "Поле 'address' не должно превышать 255 символов.",
+
+  "userDepartmentCustom": "Неверный формат идентификатора отдела.",
+  "userDepartmentBase": "Отдел должен быть строкой.",
+
+  "userDoorsCustom": "Неверный формат идентификатора двери.",
+  "userDoorsBase": "Дверь должна быть строкой.",
+
+  "userSyncIp": "Поле 'IP' должно быть валидным IP-адресом",
+  "userSyncIpRequired": "Поле 'IP' обязательно для заполнения",
+
+  "userSyncTypeBase": "Поле 'Тип' должно быть числом.",
+  "userSyncTypeOnly": "Поле 'Тип' должно быть 0 (выход) или 1 (вход).",
+  "userSyncTypeRequired": "Поле 'Тип' обязательно для заполнения",
+
+  "userSyncStatusBase": "Поле 'Статус' должно быть булевым значением",
+
+  "calendarUserCustom": "Неверный формат идентификатора пользователя.",
+  "calendarUserBase": "Пользователь должен быть строкой.",
+  "calendarUserRequired": "Пользователь обязателен для заполнения.",
+
+  "calendarDateBase": "Поле 'date' должно быть датой.",
+  "calendarDateRequired": "Поле 'date' обязательно для заполнения.",
+
+  "calendarShiftBase": "Поле 'shift' должно быть строкой.",
+  "calendarShiftOnly": "Поле 'shift' должно содержать только (morning, afternoon, night, full_day или off)",
+  "calendarShiftRequired": "Поле 'shift' обязательно для заполнения.",
+
+  "calendarNotesBase": "Поле 'notes' должно быть строкой.",
+  "calendarNotesMax": "Поле 'notes' не должно превышать 255 символов.",
+
+
+  "workerUserCustom": "Неверный формат идентификатора пользователя.",
+  "workerUserBase": "Пользователь должен быть строкой.",
+  "workerUserRequired": "Пользователь обязателен для заполнения.",
+
+  "workerDepartmentCustom": "Неверный формат идентификатора отдела.",
+  "workerDepartmentBase": "Отдел должен быть строкой.",
+  "workerDepartmentRequired": "Отдел обязателен для заполнения.",
+
+  "workerGroupCustom": "Неверный формат идентификатора группы.",
+  "workerGroupBase": "Группа должна быть строкой.",
+
+  "workerHistoryCompanyBase": "Поле 'historyCompany' должно быть строкой.",
+  "workerHistoryCompanyRequired": "Поле 'historyCompany' обязательно для заполнения.",
+  "workerHistoryCompanyMax": "Поле 'historyCompany' не должно превышать 100 символов.",
+
+  "workerHistoryPositionBase": "Поле 'historyPosition' должно быть строкой.",
+  "workerHistoryPositionRequired": "Поле 'historyPosition' обязательно для заполнения.",
+  "workerHistoryPositionMax": "Поле 'historyPosition' не должно превышать 100 символов.",
+
+  "workerHistoryEnterDateBase": "Поле 'historyEnterDate' должно быть датой.",
+  "workerHistoryEnterDateLess": "Дата вступления должна быть меньше текущей даты.",
+  "workerHistoryEnterDateRequired": "Поле 'historyEnterDate' обязательно для заполнения.",
+
+  "workerHistoryLeaveDateBase": "Поле 'historyLeaveDate' должно быть датой.",
+  "workerHistoryLeaveDateLess": "Дата ухода должна быть меньше текущей даты.",
+  "workerHistoryLeaveDateRequired": "Поле 'historyLeaveDate' обязательно для заполнения.",
+
+  "workerHistoryCommentBase": "Поле 'historyComment' должно быть строкой.",
+  "workerHistoryCommentMax": "Поле 'historyComment' не должно превышать 255 символов.",
+
+  "branchBase": "Поле 'branch' должно быть строкой.",
+  "branchRequired": "Поле 'branch' обязательно для заполнения.",
+  "branchCustom": "Неверный формат идентификатора филиала.",
+
+
+  "doorStatusBase": "Поле 'doorStatus' должно быть строкой.",
+  "doorStatusOnly": "Поле 'doorStatus' может быть только 'online' или 'offline'.",
+
+  "doorIpBase": "Поле 'ip' должно быть строкой.",
+  "doorIpEmpty": "Поле 'ip' не может быть пустым.",
+  "doorIpRequired": "Поле 'ip' обязательно для заполнения.",
+  "doorIpIp": "IP-адрес должен соответствовать формату: '192.168.1.1'",
+  "doorIpIpv4": "IP-адрес должен соответствовать формату IPv4.",
+
+  "doorPortRequired": "Поле 'port' должно быть строкой.",
+  "doorPortBase": "Поле 'port' не может быть пустым.",
+  "doorPortEmpty": "Поле 'port' обязателен для заполнения.",
+
+  "doorTypeRequired": "Поле 'type' обязательно для заполнения.",
+  "doorTypeBase": "Поле 'type' должно быть строкой.",
+  "doorTypeOnly": "Поле 'type' должен содержать лишь 'exit' или 'enter'",
+
+  "doorLoginRequired": "Поле 'login' обязательно для заполнения.",
+  "doorLoginBase": "Поле 'login' должно быть строкой.",
+  "doorLoginMin": "Поле 'login' должно содержать минимум 3 символа.",
+  "doorLoginMax": "Поле 'login' не должно превышать 50 символов.",
+  "doorLoginPattern": "Поле 'login' должно содержать только латинские буквы и цифры.",
+
+  "doorPasswordRequired": "Поле 'password' обязательно для заполнения.",
+  "doorPasswordBase": "Поле 'password' должно быть строкой.",
+  "doorPasswordMin": "Поле 'password' должно содержать минимум 5 символов.",
+  "doorPasswordMax": "Поле 'password' не должно превышать 50 символов.",
+  "doorPasswordPattern": "Поле 'password' должно содержать только латинские буквы и цифры.",
+
+  "doorIsOpenBase": "'isOpen' должен быть булевым значением (true или false)",
+
+
+  "eventTypeBase": "Поле 'type' должно быть строкой.",
+  "eventTypeOnly": "Поле 'type' должно содержать только 'enter' или 'exit'",
+
+  "eventUserCustom": "Неверный формат идентификатора пользователя.",
+  "eventUserBase": "Пользователь должен быть строкой.",
+
+  "eventBranchCustom": "Неверный формат идентификатора филиала.",
+  "eventBranchBase": "Филиал должна быть строкой.",
+
+  "eventDoorCustom": "Неверный формат идентификатора двери.",
+  "eventDoorBase": "Дверь должна быть строкой.",
+
+  "eventDepartmentCustom": "Неверный формат идентификатора отдела.",
+  "eventDepartmentBase": "Отдел должен быть строкой.",
+
+
+  "monthBase": "Поле 'month' должно быть числом.",
+  "monthOnly": "Поле 'month' может быть только от 0 до 11.",
+
+  "yearBase": "Поле 'year' должно быть числом.",
+  "yearMin": "Поле 'year' должно быть больше или равно 2020.",
+  "yearMax": "Поле 'year' должно быть меньше или равно 2050.",
+
+  "holidayDateBase": "Поле 'date' должно быть датой.",
+  "holidayDateRequired": "Поле 'date' обязательно для заполнения.",
+
+
+  "shortNameBase": "Поле 'shortName' должно быть строкой.",
+  "shortNameEmpty": "Поле 'shortName' не может быть пустым.",
+  "shortNameMin": "Поле 'shortName' должно содержать минимум 1 символ.",
+  "shortNameMax": "Поле 'shortName' не должно превышать 15 символов.",
+  "shortNameRequired": "Поле 'shortName' обязательно для заполнения.",
+
+
+  "absenceUserBase": "Поле 'user' должно быть строкой.",
+  "absenceUserRequired": "Поле 'user' обязательно для заполнения.",
+
+  "absenceYearBase": "Поле 'year' должно быть числом.",
+  "absenceYearMin": "Поле 'year' должно быть больше или равно 2024.",
+  "absenceYearMax": "Поле 'year' должно быть меньше или равно 2200.",
+
+  "absenceMonthBase": "Поле 'month' должно быть числом.",
+  "absenceMonthMin": "Поле 'month' должно быть больше или равно 0.",
+  "absenceMonthMax": "Поле 'month' должно быть меньше или равно 11.",
+
+  "absenceReasonBase": "Поле 'reason' должно быть строкой.",
+  "absenceReasonRequired": "Поле 'reason' обязательно для заполнения.",
+
+  "absenceDescriptionBase": "Поле 'description' должно быть строкой.",
+
+  "absenceDocBase": "Поле 'doc' должно быть строкой.",
+
+  "absenceStartRequired": "Поле 'start' обязательно для заполнения.",
+  "absenceStartBase": "Поле 'start' должно быть датой.",
+
+  "absenceEndRequired": "Поле 'end' обязательно для заполнения.",
+  "absenceEndBase": "Поле 'end' должно быть датой.",
+
+
+  "userSyncedDoorUserRequired": "Поле 'user' обязательно для заполнения.",
+  "userSyncedDoorUserBase": "Пользователь должен быть строкой.",
+
+  "userSyncedDoorDoorRequired": "Поле 'door' обязательно для заполнения.",
+  "userSyncedDoorDoorBase": "Дверь должна быть строкой."
+}

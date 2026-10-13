@@ -1,0 +1,10 @@
+@import '@/styles/mode.css';
+@import '@/styles/main.css';
+@import '@/styles/scroll.css';
+@import '@/styles/flatpicker.css';
+@import '@/styles/paginate.css';
+@import '@/styles/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

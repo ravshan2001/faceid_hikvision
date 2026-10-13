@@ -1,0 +1,25 @@
+@layer components {
+  .paginate {
+    @apply flex justify-start gap-2;
+  }
+
+  .paginate li {
+    @apply relative overflow-hidden cursor-pointer w-8 h-8 rounded-md hover:bg-aside text-changeText hover:text-whiteText border border-border hover:border-hoverAside;
+  }
+
+  .paginate li a {
+    @apply absolute inset-0 m-auto flex items-center justify-center;
+  }
+
+  .paginate li.disabled {
+    @apply cursor-default;
+  }
+
+  .paginate li.active {
+    @apply cursor-default bg-aside border-aside;
+  }
+
+  .paginate li.active a {
+    @apply text-whiteText;
+  }
+}
